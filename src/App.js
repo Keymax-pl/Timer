@@ -10,8 +10,8 @@ const App = () => {
   const startTimer = () => {
     console.log("Start timer");
     setIntervalValue(setInterval(() => {
-      setTime(prevValue => prevValue + 1);
-    }, 1000));
+      setTime(prevValue => prevValue + 200);
+    }, 200));
   };
 
   const stopTimer = () => {
